@@ -13,7 +13,13 @@ package Encapsulation;
             employee.setAge(23);
             employee.setId(38);
             employee.setSalary(18000);
+
+//            System.out.println("\n gotname through getter"+employee.getName());
             System.out.println("\n"+employee);
+//            employee.salary = 112000;
+//
+//
+//            System.out.println("Salary="+employee.salary);
         }
     }
 

@@ -1,6 +1,4 @@
 package Immutable;
-
-
 public final class Employee {
     int id;
     int salary;
@@ -24,6 +22,8 @@ public final class Employee {
     public Address getAddress() {
         return address;
     }
+
+
     @Override
     public String toString() {
         return "Employee{" +

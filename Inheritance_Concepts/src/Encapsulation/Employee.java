@@ -1,8 +1,8 @@
 package Encapsulation;
 /*
-getter setter are used to set of get the value of a
-field within a class using constructor even if the access of
-level of that field is private.
+getter setter are used to set & get the value of a
+field within a class using constructor even if the access-level of
+ that field is private.
  */
 
 public class Employee {
@@ -37,14 +37,6 @@ public class Employee {
         return name;
     }
 
-    public int getSalary() {
-        return salary;
-    }
-
-    public void setSalary(int salary) {
-        this.salary = salary;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -73,8 +65,22 @@ public class Employee {
         this.age = age;
     }
 
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
     @Override
     public String toString() {
-        return "Constructor Fields{"+"\nName="+name+"\nCompany="+company+"\nAge="+age+"\nId="+id+"\nSalary="+salary+"}\n"+super.toString();
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", company='" + company + '\'' +
+                ", id=" + id +
+                ", age=" + age +
+                ", salary=" + salary +
+                '}';
     }
 }

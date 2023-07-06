@@ -9,6 +9,7 @@ public class ReadWriteExample {
 
         String input= scanner.nextLine();
         System.out.println(input);
+        scanner.close();
 
 
     }
