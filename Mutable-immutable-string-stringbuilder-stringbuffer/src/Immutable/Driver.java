@@ -8,6 +8,7 @@ package Immutable;
 *3. make class final
 *4. use deep clone for mutable fields
 *5. use deep clone for mutable fields in getters.
+*6.make all fields final/ optional
 ** */
 
 public class Driver {

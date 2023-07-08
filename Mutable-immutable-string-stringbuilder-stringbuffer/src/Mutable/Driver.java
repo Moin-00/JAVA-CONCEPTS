@@ -3,7 +3,7 @@ package Mutable;
 * mutable Class.
 * Class whose object after initialization cam be modified are called mutable classes
 * mutable means once a field is created it can be modified even after the initialization
-* that means a field can be modified at any point in the program
+* that means once object can be modified at any point in the program
 * in these cases possibility of a hacker modifying a field is more
 * */
 

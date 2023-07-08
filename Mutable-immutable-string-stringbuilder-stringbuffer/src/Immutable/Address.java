@@ -23,6 +23,23 @@ public final class Address {
     public int getPinCode() {
         return pinCode;
     }
+
+//    public void setLineNum(int lineNum) {
+//        this.lineNum = lineNum;
+//    }
+
+//    public void setStreetName(String streetName) {
+//        this.streetName = streetName;
+//    }
+
+//    public void setCity(String city) {
+//        this.city = city;
+//    }
+
+//    public void setPinCode(int pinCode) {
+//        this.pinCode = pinCode;
+//    }
+
     @Override
     public String toString() {
         return "Address{" +
