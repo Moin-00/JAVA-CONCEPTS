@@ -1,8 +1,8 @@
-package AbsractionInterface;
+package absractionInterface;
 
-import AbsractionInterface.Main.Circle;
-import AbsractionInterface.Main.Rectangle;
-import AbsractionInterface.Main.Square;
+import absractionInterface.Main.Circle;
+import absractionInterface.Main.Rectangle;
+import absractionInterface.Main.Square;
 
 public class Driver {
     public static void main(String[] args) {

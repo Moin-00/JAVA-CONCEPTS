@@ -1,6 +1,6 @@
-package AbstractionClass.Main;
+package abstractionClass.Main;
 
-import AbstractionClass.Features.Shape;
+import abstractionClass.Features.Shape;
 
 public class Circle extends Shape {
     double radius;

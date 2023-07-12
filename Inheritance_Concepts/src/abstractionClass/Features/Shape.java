@@ -1,4 +1,4 @@
-package AbstractionClass.Features;
+package abstractionClass.Features;
 
 public abstract class Shape {
     public static final double Pi=3.14;

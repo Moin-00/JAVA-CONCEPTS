@@ -1,4 +1,4 @@
-package Casting;
+package casting;
 
 public class Machine {
 //    this is the super Class

@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 /*
 getter setter are used to set & get the value of a
 field within a class using constructor even if the access-level of

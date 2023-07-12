@@ -1,6 +1,6 @@
-package AbsractionInterface.Main;
+package absractionInterface.Main;
 
-import AbsractionInterface.Features.Shape;
+import absractionInterface.Features.Shape;
 
 
 

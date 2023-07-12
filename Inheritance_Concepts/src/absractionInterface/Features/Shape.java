@@ -1,4 +1,4 @@
-package AbsractionInterface.Features;
+package absractionInterface.Features;
 
 /**
  * This interface defines features for different Shape Objects like

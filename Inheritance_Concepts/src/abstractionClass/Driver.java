@@ -1,8 +1,8 @@
-package AbstractionClass;
+package abstractionClass;
 
-import AbstractionClass.Features.Shape;
-import AbstractionClass.Main.Circle;
-import AbstractionClass.Main.Rectangle;
+import abstractionClass.Features.Shape;
+import abstractionClass.Main.Circle;
+import abstractionClass.Main.Rectangle;
 
 public class Driver {
     public static void main(String[] args) {

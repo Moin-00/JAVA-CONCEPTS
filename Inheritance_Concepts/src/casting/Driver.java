@@ -1,4 +1,4 @@
-package Casting;
+package casting;
 
 public class Driver {
     public static void main(String[] args) {
@@ -27,9 +27,9 @@ public class Driver {
 
 //        Downcasting
 //        Cannot execute these methods as it throws class exeption error
-//        Printer printer1=(Printer) new Machine();
-//        printer1.powerOn();
-//        printer1.print();
-//        printer1.powerOff();
+       Printer printer1=(Printer) new Machine();
+       printer1.powerOn();
+       printer1.print();
+       printer1.powerOff();
     }
 }
