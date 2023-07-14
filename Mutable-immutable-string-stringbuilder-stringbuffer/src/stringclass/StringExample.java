@@ -48,14 +48,25 @@ public class StringExample {
             System.out.println("n1="+n1+"\nn2="+n2);
         }
 
-        n1=n2+"Mulani";
-        n2="MoinMulani";//Why does n2 create a new literal when literal "MoinMulani" is already in String constant pool
-        if (n1 == n2) {
-            System.out.println("Same addresses in n1 and n2");
-            System.out.println("n1="+n1+"\nn2="+n2);
+        n1="Moin"+"Mulani";//created in SCP
+        String n4=n1+"Mulani";//created in heap because we used variable to concat
+        String n3="MoinMulani";//created in SCP
+        //Why does n3 has diff address and n4  has diff address
+        //because the literals are created in different pool one in heap and other in String Constant Pool
+        if (n1 == n3) {
+            System.out.println("Same addresses in n1 and n3");
+            System.out.println("n1="+n1+"\nn3="+n3);
         } else {
-            System.out.println("Different addresses in n1 and n2");
-            System.out.println("n1="+n1+"\nn2="+n2);
+            System.out.println("Different addresses in n1 and n3");
+            System.out.println("n1="+n1+"\nn3="+n3);
+        }
+
+        if (n4 == n3) {
+            System.out.println("Same addresses in n4 and n3");
+            System.out.println("n4="+n4+"\nn3="+n3);
+        } else {
+            System.out.println("Different addresses in n4 and n3");
+            System.out.println("n4="+n4+"\nn3="+n3);
         }
 
 
