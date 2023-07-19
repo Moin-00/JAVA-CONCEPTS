@@ -28,7 +28,15 @@ public class RunTimeException {
         public static void main(String[] args) {
             int a=10;
             int b=0;
-            int c=a/b; //exception occurs here as / 0 is undefined , statements below this line will not be executed if exception not handled .
+            int c=a/b;
+//            finally{
+//                System.out.println("why ");
+//            } // only used with try block
+            //exception occurs here as / 0 is undefined , statements below this line will not be executed if exception not handled .
+            // only in case of runtime exception
+            // no lines will be executed after an exception occurs
+
+
             System.out.println(c);
             for (int i = 0; i < 10; i++) {
                 System.out.println(i);
