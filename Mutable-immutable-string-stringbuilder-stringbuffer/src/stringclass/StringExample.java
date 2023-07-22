@@ -33,6 +33,8 @@ public class StringExample {
         System.out.println(name1);
 
         if (name1.equals(name2)) {
+            //equals()check if the attributes present in the variables are same whereas "==" checks if the address present
+            //in both are same
             System.out.println("Same addresses in name1 and name2");
         } else {
             System.out.println("Different addresses in name1 and name2");
@@ -49,7 +51,7 @@ public class StringExample {
         }
 
         n1="Moin"+"Mulani";//created in SCP
-        String n4=n1+"Mulani";//created in heap because we used variable to concat
+        String n4=n1+"Mulani";//created in heap because we used variable n1 to concat
         String n3="MoinMulani";//created in SCP
         //Why does n3 has diff address and n4  has diff address
         //because the literals are created in different pool one in heap and other in String Constant Pool

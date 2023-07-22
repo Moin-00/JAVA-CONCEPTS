@@ -14,15 +14,20 @@ public final class Address {
     public int getLineNum() {
         return lineNum;
     }
+
+
     public String getStreetName() {
         return streetName;
     }
+
     public String getCity() {
         return city;
     }
+
     public int getPinCode() {
         return pinCode;
     }
+
 
 //    public void setLineNum(int lineNum) {
 //        this.lineNum = lineNum;
