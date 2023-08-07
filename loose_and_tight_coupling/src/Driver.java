@@ -6,7 +6,18 @@ public class Driver {
         machine.power_off();
         System.out.println("\nLoose coupling using Machine class");
 
-        IMachine iMachine =new Machine();//loose coupling
+        IMachine iMachine =new Machine();
+//        IMachine iMachine1 = new IMachine() { //Doesn't actually creates the object of interface
+        //rather creates 
+//            @Override
+//            public void power_on() {
+//
+//            }
+//
+//            @Override
+//            public void power_off() {
+//
+//            };//Anonymous Class
 
         iMachine.power_on();
         iMachine.power_off();

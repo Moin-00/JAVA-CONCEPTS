@@ -5,7 +5,7 @@ class Hello {
 }
 public class ClassNotFoundExceptionExample {
     public static void main(String[] args) {
-//        System.out.println(Hello1.class);
+//       System.out.println(Hello1.class) ;
 
     }
 }

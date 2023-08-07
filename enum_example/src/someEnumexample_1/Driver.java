@@ -11,5 +11,13 @@ public class Driver {
         System.out.println("\n"+Direction.NORTH.msg);
 
 
+        System.out.println(Direction.Function()  );
+        System.out.println("M"+"O");
+        Direction.print();
+        System.out.println(Direction.message);
+
+
+
+
     }
 }

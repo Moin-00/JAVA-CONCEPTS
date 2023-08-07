@@ -4,7 +4,8 @@ public class UncheckedExceptionExample {
         try{
             System.out.println("Print value at index 10"+arr[10]);
 
-        }catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException){
+        }
+        catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException){
             System.out.println("ArrayIndexOutOfBoundsException :"+arrayIndexOutOfBoundsException.getMessage());
         }
 

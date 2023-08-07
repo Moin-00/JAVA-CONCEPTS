@@ -8,6 +8,8 @@ package someEnumexample_1;
 //each enum constant is written in capital letters.
 //enum is basically a class. But only difference is its objects are pre created at the time of
 //enum loading
+//Every method inside Enum Should be Static as Constructor of enum is private, and we cannot create object of enum,
+//So we should declare every method inside Enum as Static to access it using Enum Class name in driver class
 
 //static variables and static blocks are initialized and executed when class is loaded into memory by classloader.
 //the initialization and execution is done by execution engine of JVM.
@@ -32,6 +34,7 @@ public enum Direction {
 
     //instance variable
     String msg;
+    public static final String  message = "HI Enum Instance Variable";
     static public  void print(){
         System.out.println("without constructor");
 
@@ -50,5 +53,12 @@ public enum Direction {
 
     public void setMsg(String msg) {
         this.msg = msg;
+    }
+
+    static int Function(){
+        int a =10;
+        int b= 10;
+        int c = a/b;
+        return c;
     }
 }
