@@ -36,9 +36,11 @@ public class OptionalExample {
         Optional<String> optionalstring1 = Optional.ofNullable(nullobject);
 //        Here the value of object is null
         if(optionalstring1.isPresent()&& optionalstring1.get().length()>4){
-            System.out.println("Using optional (.ofNullable)-The name is not null , not empty and length of name is greater than 4");
+            System.out.println("Using optional (.ofNullable)-The name is not null ," +
+                    " not empty and length of name is greater than 4");
         }else {
-            System.out.println("Using optional (.ofNullable)-The name is null or Empty or length of name is smaller than or equal to 4");
+            System.out.println("Using optional (.ofNullable)-The name is null or Empty or " +
+                    "length of name is smaller than or equal to 4");
         }
 
 
