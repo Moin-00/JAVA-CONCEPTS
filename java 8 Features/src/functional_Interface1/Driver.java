@@ -3,7 +3,7 @@ package functional_Interface1;
 public class Driver {
 
     public static void main(String[] args) {
-        ExampleInterface instanceAnonymousClass = new ExampleInterface() {
+        ExampleInterface instanceAnonymousClass = new ExampleInterface() {//this creates a new class as ExampleInterface
             @Override
             public int randomCalculate(int a, int b) {
                 System.out.println("randomCalculate() method called inside anonymous class!!!");

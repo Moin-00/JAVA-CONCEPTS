@@ -27,13 +27,13 @@ public class OptionalMethod {
                     Character firstChar = s.charAt(0);
                     return firstChar;
                 }
-        ).ifPresentOrElse(s -> System.out.println("Value present inside Optional is"+s),
+        ).ifPresentOrElse(s -> System.out.println("Value present inside Optional is "+s),
                 ()->System.out.println("No value is present"));
 
         stringOptional.filter(s -> s.length() > 10).ifPresentOrElse(
                 s -> {
             Integer length = s.length();
-            System.out.println("Length of String value is"+length);
+            System.out.println("Length of String value is "+length);
         },
                 ()-> System.out.println("Empty optional is returned by filter after condition checking"));
 
