@@ -13,20 +13,41 @@ public class Stream1 {
         guest.add("Person3");
         guest.add("Person4");
         Stream<String> concatOfGuest = guest.stream();
-        concatOfGuest
-                .filter(parameter->{
-                    boolean condition =parameter.length()>4;
+        List<String> list = concatOfGuest
+                .filter(parameter -> {
+                    boolean condition = parameter.length() > 4;
 
                     return condition;
                 })
                 .map(parameter -> {
-                    String p =parameter.toUpperCase();
-                    String concat =p.concat(" :- Fits the condition of Char length greater than four");
+                    String p = parameter.toUpperCase();
+                    String concat = p.concat(" :- Fits the condition of " + "'Char length greater than four'");
                     return concat;
                 })
 
-                .forEach(System.out::println);
+                .toList();
 
+//                .forEach(System.out::println);
+
+
+        System.out.println("Concat"+concatOfGuest);
+
+        List<String> elements = new ArrayList<>();
+        elements.add("Moin");
+        elements.add("AAAaaa");
+        elements.add("BBBbbb");
+        System.out.println(elements);
+
+        List<String> streamlist = elements.stream()
+//                .toList()
+                .filter(s -> {
+                    return s.length()>4;
+                })
+                .toList(); //returns a list containing stream elements
+
+        System.out.println("Elements after applying stream "+streamlist);
+
+        System.out.println(guest);
 
     }
 }
